@@ -1,3 +1,7 @@
+
+
+
+
 import { useState } from 'react';
 
 import FormInput from '../form-input/form-input.component';
@@ -68,6 +72,7 @@ const SignInForm = () => {
         />
         <ButtonsContainer>
           <Button type='submit'>Sign In</Button>
+          
           <Button
             buttonType={BUTTON_TYPE_CLASSES.google}
             type='button'
